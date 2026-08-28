@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Prisma 8 RC artifacts
+.agents/
+.claude/
+.devin/
+prisma.config.ts
+
+# Husky
+.husky/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
